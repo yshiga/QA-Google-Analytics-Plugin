@@ -16,7 +16,7 @@ class google_analytics_admin_form {
 
             'fields' => array(
                 array(
-                    'label' => 'Enter Google Analytics tracking code:',
+                    'label' => 'Enter Google Analytics tracking code. without script tags and send method is called automatically.:',
                     'value' => qa_opt('google_analytics_UA'),
                     'tags' => 'NAME="google_analytics_UA_field"',
                     'type' => 'textarea',
